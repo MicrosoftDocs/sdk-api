@@ -1,12 +1,10 @@
 ---
 UID: NE:strmif._AM_PIN_FLOW_CONTROL_BLOCK_FLAGS
-title: "_AM_PIN_FLOW_CONTROL_BLOCK_FLAGS" (strmif.h)
-
+title: "_AM_PIN_FLOW_CONTROL_BLOCK_FLAGS (strmif.h)"
 description: Defines flags that specify how to block data flow from an output pin.
 old-location: dshow\am_pin_connection_block_flags.htm
 tech.root: DirectShow
 ms.assetid: ad059d7c-86dd-41a4-8cef-dbd154057c50
-
 ms.date: 12/05/2018
 ms.keywords: AM_PIN_CONNECTION_BLOCK_FLAGSEnumeration, AM_PIN_FLOW_CONTROL_BLOCK, _AM_PIN_FLOW_CONTROL_BLOCK_FLAGS, _AM_PIN_FLOW_CONTROL_BLOCK_FLAGS , _AM_PIN_FLOW_CONTROL_BLOCK_FLAGS enumeration [DirectShow], dshow.am_pin_connection_block_flags, strmif/AM_PIN_FLOW_CONTROL_BLOCK, strmif/_AM_PIN_FLOW_CONTROL_BLOCK_FLAGS
 ms.topic: enum
